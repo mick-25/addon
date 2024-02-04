@@ -37,7 +37,7 @@ function getName(config) {
 }
 
 function getDescription(config) {
-  return 'H_Y the Self Hosted Torrentio';
+  return 'H_Y Self Hosted Torrentio';
 }
 
 function getCatalogs(config) {
