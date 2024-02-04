@@ -6,7 +6,7 @@ const CatalogMochs = Object.values(MochOptions).filter(moch => moch.catalog);
 
 export function manifest(config = {}) {
   return {
-    id: 'com.stremio.selfhostio.selfhostio',
+    id: 'com.stremio.hy.selfhostio',
     version: '0.0.1',
     name: getName(config),
     description: getDescription(config),
@@ -37,7 +37,7 @@ function getName(config) {
 }
 
 function getDescription(config) {
-  return 'Selfhostio the Torrentio brings you much Funio';
+  return 'H_Y the Self Hosted Torrentio';
 }
 
 function getCatalogs(config) {
