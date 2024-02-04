@@ -208,8 +208,8 @@ export default function landingTemplate(manifest, config = {}) {
   const putioClientId = putioKey.replace(/@.*/, '');
   const putioToken = putioKey.replace(/.*@/, '');
 
-  const background = manifest.background || 'https://dl.strem.io/addon-background.jpg';
-  const logo = manifest.logo || 'https://dl.strem.io/addon-logo.png';
+  const background = manifest.background || 'https://raw.githubusercontent.com/mikmc55/logo/main/blownaway.jpg';
+  const logo = manifest.logo || 'https://raw.githubusercontent.com/mikmcdanbyeee55/filth/main/h_y-high-resolution-logo-transparent.png';
 
   const sortOptionsHTML = Object.values(SortOptions.options)
       .map((option, i) => `<option value="${option.key}" ${i === 0 ? 'selected' : ''}>${option.description}</option>`)
